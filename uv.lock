@@ -1,10 +1,6 @@
 version = 1
 revision = 2
 requires-python = "==3.12.*"
-resolution-markers = [
-    "platform_machine == 'x86_64' and sys_platform == 'darwin'",
-    "platform_machine != 'x86_64' or sys_platform != 'darwin'",
-]
 
 [[package]]
 name = "alembic"
